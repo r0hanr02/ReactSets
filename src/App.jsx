@@ -16,6 +16,7 @@ import DigitalClock from './DigitalClock/DigitalClock'
 import UseContext from './UseContext/UseContext'
 import UseRef from './useRef/useRef'
 import StopWatch from './StopWatch/StopWatch'
+import Animated from './AnimatedButton/Animated'
 
 function App() {
 
@@ -37,7 +38,8 @@ function App() {
     {/* <DigitalClock/> */}
     {/* <UseContext/> */}
     {/* <UseRef/> */}
-    <StopWatch/>
+    {/* <StopWatch/> */}
+    <Animated/>
     </>
   )
 }
