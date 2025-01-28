@@ -17,6 +17,7 @@ import UseContext from './UseContext/UseContext'
 import UseRef from './useRef/useRef'
 import StopWatch from './StopWatch/StopWatch'
 import Animated from './AnimatedButton/Animated'
+import PasswordGenerator from './PasswordGenerator/PasswordGenerator'
 
 function App() {
 
@@ -39,7 +40,8 @@ function App() {
     {/* <UseContext/> */}
     {/* <UseRef/> */}
     {/* <StopWatch/> */}
-    <Animated/>
+    {/* <Animated/> */}
+   <PasswordGenerator/> 
     </>
   )
 }
